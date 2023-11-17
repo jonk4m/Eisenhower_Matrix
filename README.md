@@ -1,10 +1,29 @@
 # Eisenhower_Matrix
 Simple Program to Organize a Text-Based list of Tasks by How Important/Urgent They are via a Ranking System
 
+<details>
+<summary> What is an Eisenhower Matrix? </summary>
+
+## What is an Eisenhower Matrix?
+TODO:
+- Provide links to articles 
+- Provide brief description of why it's useful 
+
+</details>
+<details>
+<summary> Functionality </summary>
+
 ## Functionality 
+
+<details>
+<summary> Entering Tasks </summary>
 
 ### Entering Tasks
 The user needs to enter a list of tasks, either by selecting a text file filled with tasks (each on it's own line), or by manually typing them into the program one-by-one. 
+
+</details>
+<details>
+<summary> Ranking Process </summary>
 
 ### Ranking Process
 The user can select from the menu to rank the tasks by either importance or urgency. This will prompt a question-answer series where the program asks the user to select from two tasks which one is more important/urgent. Once the user has answered all the questions, the program will rank the tasks based on the responses. 
@@ -37,3 +56,42 @@ Urgency │
          ◄───────────────────────────────────
          Most         Importance        Least
 ```
+The final list is next sorted starting from the (0,0) coordinate working linearly to the top right of the matrix. 
+
+</details>
+</details>
+<details>
+<summary> Install </summary>
+
+# Install
+
+TODO
+
+</details>
+<details>
+<summary> Features </summary>
+
+# Features
+
+TODO 
+
+</details>
+<details>
+<summary> Screenshots </summary>
+
+# Screenshots 
+
+TODO 
+
+</details>
+<details>
+<summary> Acknowledgements </summary>
+
+# Acknowledgements 
+
+TODO:
+- Add Asciiflow
+- Add FTXUI
+- Add 
+
+</details>
