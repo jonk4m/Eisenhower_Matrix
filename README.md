@@ -25,7 +25,7 @@ Once the user has ranked all tasks, the tasks are assigned a 2 dimensional ranki
 
 This reveals a matrix with coordinates:
 
-'''
+```
   Least │    (0,1)               (1,1)
         │ Most Important      Leas Important
         │ Less Urgent         Less Urgent
@@ -36,4 +36,4 @@ Urgency │
    Most ▼
          ◄───────────────────────────────────
          Most         Importance        Least
-'''
+```
