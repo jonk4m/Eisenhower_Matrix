@@ -75,6 +75,44 @@ TODO
 
 TODO 
 
+<details>
+<summary> Possible Future Features </summary>
+
+  - Provide default sorting patterns for the user as a checkbox
+    - Example: Sort list of tasks by:
+      - Easiest
+      - Most Important
+      - Most Urgent
+      - 2nd Easiest
+      - 2nd Most Important
+      - 2nd Most Urgent
+      - etc.
+  - Create a standard file type like .priority
+    - Make it standard text readable in markdown format
+      - use (0,0,0) before each task for (Importance, Urgency, Ease) sorting
+      - use (C,0,0,0) before each complete task 
+    - Make it have comments ignored with something like #ignore this comment, but probably not the '#' because that might mess with Markdown format
+    - Possible improvement would be allowing for nested tasks (ideally in markdown format)
+    - Include the time/date of the last ranking in the file somewhere 
+  - Make it so you can send an executable to a customer, along with a .priority file, and they can run it to provide the developer with the resulting .priority file they can then use to determine the future of the project.
+    - Providing a customer specific menu on startup (Are you ___ Customer?) and then proceeding based on that would be a nice way to handle this. 
+  - Allow for reading in a .priority file, then dynamically adding tasks that are then sorted or not.
+    - Maybe have an indicator next to unsorted tasks and a progress bar that always shows how many tasks in % are sorted or not. 
+  - Biggest thorns to deal with where this program is currently lacking:
+    - handling nested tasks
+    - handling tasks that rely on other tasks being accomplished before they can be accomplished. Call it, sequential reliance on another task. This would theoretically change the order of importance.
+      - For example, if Task B MUST be done before Task A (i.g. Task B is implement playing a file, while Task A is to add a play button) then the user selecting Task B to have a higher importance than task A should raise the importance of Task A since it has to be done first.
+      - Another example: It would be confusing for the customer to rank the importance of "Buttons have tooltips" and "Buttons exist" when the latter clearly has to come first. 
+  - OS independent: Is there a way to compile several executables that are wrapped in one executable which then picks the correct executable to use based on the OS calling it?
+  - Runnable in a web browser. 
+  - Runnable on mobile. 
+  - Integration with Todoist possible. 
+  - Making the ranking process "smarter" by mimicking techniques similar to active recall and spaced repetition. 
+    - Example: User has 50 tasks. Ranking them all by importance should, at some point, loop back to the beginning of the list to heighten the likelyhood that Task 1 being ranked higher than Task 49 is true. Basically, even if all tasks are technically ranked in order, there should be some overlap of tasks the user is asked to rank to ensure a higher degree of certainty.
+  - 
+  
+</details>
+
 </details>
 <details>
 <summary> Screenshots </summary>
