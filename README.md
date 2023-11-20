@@ -109,7 +109,7 @@ TODO
   - Integration with Todoist possible. 
   - Making the ranking process "smarter" by mimicking techniques similar to active recall and spaced repetition. 
     - Example: User has 50 tasks. Ranking them all by importance should, at some point, loop back to the beginning of the list to heighten the likelyhood that Task 1 being ranked higher than Task 49 is true. Basically, even if all tasks are technically ranked in order, there should be some overlap of tasks the user is asked to rank to ensure a higher degree of certainty.
-  - 
+  - Make this a linux package that can be installed by most package managers 
   
 </details>
 
