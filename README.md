@@ -15,6 +15,8 @@ TODO:
 
 ## Functionality 
 
+- Mention that this is not a note-taking resource. This is also not meant to replace the usefulness of a calendar. 
+
 <details>
 <summary> Entering Tasks </summary>
 
