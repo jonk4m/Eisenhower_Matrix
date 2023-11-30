@@ -109,7 +109,11 @@ TODO
   - Integration with Todoist possible. 
   - Making the ranking process "smarter" by mimicking techniques similar to active recall and spaced repetition. 
     - Example: User has 50 tasks. Ranking them all by importance should, at some point, loop back to the beginning of the list to heighten the likelyhood that Task 1 being ranked higher than Task 49 is true. Basically, even if all tasks are technically ranked in order, there should be some overlap of tasks the user is asked to rank to ensure a higher degree of certainty.
-  - Make this a linux package that can be installed by most package managers 
+  - Make this a linux package that can be installed by most package managers
+  - Thus far the thinking has been that each project would be it's own text file, but it would be cool to rank ALL tasks a user has, including tasks from multiple projects, into one big ranked list.
+  - Giving every task a unique ID makes the most sense for sorting, organizing, uniquely identifying, etc.
+    - I wonder if you could sort projects by having a known table of ID's for a given project, task's subtasks, or even filters. So theoretically you could create a filter for a person you've delegated tasks and then rank the tasks for that person specifically without separating the tasks into a different project.
+  - Would be really cool to see if there's a "mode" you could apply to this program to gear it more towards learning a topic. 
   
 </details>
 
