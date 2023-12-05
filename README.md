@@ -115,7 +115,10 @@ TODO
   - Thus far the thinking has been that each project would be it's own text file, but it would be cool to rank ALL tasks a user has, including tasks from multiple projects, into one big ranked list.
   - Giving every task a unique ID makes the most sense for sorting, organizing, uniquely identifying, etc.
     - I wonder if you could sort projects by having a known table of ID's for a given project, task's subtasks, or even filters. So theoretically you could create a filter for a person you've delegated tasks and then rank the tasks for that person specifically without separating the tasks into a different project.
-  - Would be really cool to see if there's a "mode" you could apply to this program to gear it more towards learning a topic. 
+  - Would be really cool to see if there's a "mode" you could apply to this program to gear it more towards learning a topic.
+  - Add a "I'm feeling lucky" function that selects a random task for you to do
+  - Option to export the list in such a way that you can easily print the tasks out on playing cards and they're numbered in order plus other info like who it's assigned to
+  - Option to print most important+urgent task on thermal printer 
   
 </details>
 
