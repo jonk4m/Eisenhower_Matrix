@@ -123,8 +123,9 @@ TODO
     - Some way of syncing a document. Probably best if it uses github or something under the hood
     - Ideally there's a way for phone user's to use this. Ranking from your phone would be a fun pass-time.
     - Definitely need to add an option for assigning tasks to different people(s).
-    - Would be cool to add a feature where if multiple people rank a task differently, it flags it as a point of contention to be hashed out.
-    - 
+    - Would be cool to add a feature where if multiple people rank a task differently, it flags it as a point of contention to be hashed out
+  - I wonder if there would be any value to adding a deadline option. Maybe even several deadline options like Start-By, Mile-Stone-By, Due-By dates.
+  - Auditing the list is a tough nut to crack. Some tasks seem important at the time but end up not being very important. Same with Urgency. Having the user continuously audit the list I think is the only way to really combat this. 
   
 </details>
 
