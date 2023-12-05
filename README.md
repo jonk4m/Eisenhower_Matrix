@@ -117,15 +117,27 @@ TODO
     - I wonder if you could sort projects by having a known table of ID's for a given project, task's subtasks, or even filters. So theoretically you could create a filter for a person you've delegated tasks and then rank the tasks for that person specifically without separating the tasks into a different project.
   - Would be really cool to see if there's a "mode" you could apply to this program to gear it more towards learning a topic.
   - Add a "I'm feeling lucky" function that selects a random task for you to do
+    - Would be even cooler if you could specify how much time you have (assuming a 20% margin of error) and it will only choose randomly from tasks that you specified are that duration.
+    - Would be even cooler if you could specify you only want tasks that require thinking, for situations where you don't have access to tools/computers/whatever but you'll be bored like in meetings.
+    - Really this is just a filter where the user has to add tags for it to be recognized by the software for this sorting choice. 
   - Option to export the list in such a way that you can easily print the tasks out on playing cards and they're numbered in order plus other info like who it's assigned to
-  - Option to print most important+urgent task on thermal printer
+  - Option to print most important+urgent task on thermal printer 
   - Features that apply to a team aka shared document
     - Some way of syncing a document. Probably best if it uses github or something under the hood
     - Ideally there's a way for phone user's to use this. Ranking from your phone would be a fun pass-time.
     - Definitely need to add an option for assigning tasks to different people(s).
     - Would be cool to add a feature where if multiple people rank a task differently, it flags it as a point of contention to be hashed out
   - I wonder if there would be any value to adding a deadline option. Maybe even several deadline options like Start-By, Mile-Stone-By, Due-By dates.
-  - Auditing the list is a tough nut to crack. Some tasks seem important at the time but end up not being very important. Same with Urgency. Having the user continuously audit the list I think is the only way to really combat this. 
+  - Auditing the list is a tough nut to crack. Some tasks seem important at the time but end up not being very important. Same with Urgency. Having the user continuously audit the list I think is the only way to really combat this.
+  - Since you might have so many projects, it would be cool to have a project view where you can select from a list of projects.
+  - Including emoji's is always a plus.
+  - Would be nice to include an option of reoccuring tasks every week like taking out the trash.
+  - I struggle to quantify the type of task exemplified by "Taking out the trash". Say the trash goes out on Tuesday's, and you enter in the task on Wednesday. It's really neither urgent nor important, but when Monday rolls around, it's the most urgent task you have. If you looked at your tasks on Monday, which you entered last Wednesday and ranked on Wednesday, you wouldn't do the trash in time because some other task would be more urgent and more important always. I think to combat this, the urgency needs to change as a function of time. Not sure if it should be linear or exponential. However, there still needs to be a limit on how urgent it gets to be.
+    - One strategy might be to ask the user to rank all tasks by urgency and importance, then tell them to imagine they are a day before the due date, and rank them by urgency-alone again. This would give you an idea of how the urgency would scale over time.
+  - One possible flaw in this software if the human's ability to prioritize/rank tasks in general.
+    - The whole point of the ranking game in this program is to try to combat this human error. But it's kinda still relying on humans by tricking them to focus more.
+    - One thought is to ask probing questions for each task to guide the user to recognize the importance of a task more critically. An example would be "Which task would result in greater harm if it were never completed"
+  
   
 </details>
 
