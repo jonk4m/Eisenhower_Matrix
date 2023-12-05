@@ -108,7 +108,7 @@ TODO
   - OS independent: Is there a way to compile several executables that are wrapped in one executable which then picks the correct executable to use based on the OS calling it?
   - Runnable in a web browser. 
   - Runnable on mobile. 
-  - Integration with Todoist possible. 
+  - Integration with Todoist, Google Tasks, or others possible. 
   - Making the ranking process "smarter" by mimicking techniques similar to active recall and spaced repetition. 
     - Example: User has 50 tasks. Ranking them all by importance should, at some point, loop back to the beginning of the list to heighten the likelyhood that Task 1 being ranked higher than Task 49 is true. Basically, even if all tasks are technically ranked in order, there should be some overlap of tasks the user is asked to rank to ensure a higher degree of certainty.
   - Make this a linux package that can be installed by most package managers
@@ -118,7 +118,13 @@ TODO
   - Would be really cool to see if there's a "mode" you could apply to this program to gear it more towards learning a topic.
   - Add a "I'm feeling lucky" function that selects a random task for you to do
   - Option to export the list in such a way that you can easily print the tasks out on playing cards and they're numbered in order plus other info like who it's assigned to
-  - Option to print most important+urgent task on thermal printer 
+  - Option to print most important+urgent task on thermal printer
+  - Features that apply to a team aka shared document
+    - Some way of syncing a document. Probably best if it uses github or something under the hood
+    - Ideally there's a way for phone user's to use this. Ranking from your phone would be a fun pass-time.
+    - Definitely need to add an option for assigning tasks to different people(s).
+    - Would be cool to add a feature where if multiple people rank a task differently, it flags it as a point of contention to be hashed out.
+    - 
   
 </details>
 
